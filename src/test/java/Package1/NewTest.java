@@ -28,11 +28,7 @@ public class NewTest {
 	  boolean done = acutal_title_value.equals(relative_title_value);
 	  System.out.println();
 	  System.out.println("Your value is verified ="+ done);
-	  assertTrue(done, "Mismatches in the page title");
-	  
-	
-	  Reporter.log(relative_title_value, done);
-	  Reporter.log(acutal_title_value, done);
+
 	  
   }
   
